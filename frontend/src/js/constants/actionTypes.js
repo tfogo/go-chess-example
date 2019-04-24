@@ -1,0 +1,1 @@
+export const WS_MSG_RECEIVED = 'WS_MSG_RECEIVED'
