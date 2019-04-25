@@ -2,7 +2,6 @@ import { createStore, applyMiddleware } from 'redux'
 import { createLogger } from 'redux-logger'
 import thunk from 'redux-thunk'
 import reducers from '../reducers'
-import { initWebSocket } from '../actions'
 import Chess from "chess.js";
 
 const defaultState = {

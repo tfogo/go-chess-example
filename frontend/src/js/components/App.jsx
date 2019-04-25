@@ -2,7 +2,6 @@ import React from "react"
 import { connect } from 'react-redux'
 import Header from './Header'
 import Start from './Start'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import WithMoveValidation from "./Board"
 
 class Demo extends React.Component {
@@ -30,8 +29,8 @@ const infoStyle = {
 
 const boardsContainer = {
   display: "flex",
-  // justifyContent: "space-around",
-  // alignItems: "center",
+  justifyContent: "space-around",
+  alignItems: "center",
   flexWrap: "wrap",
   width: "100vw",
   marginTop: 30,
