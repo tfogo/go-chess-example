@@ -9,11 +9,9 @@ import '../styles/main.css'
 
 ReactDOM.render(
   <Provider store={store}>
-    <Router>
     <div className="h-100">
-      <Route exact path="/" component={App} />
+      <App></App>
       </div>
-    </Router>
   </Provider>,
   document.getElementById('app')
 )
