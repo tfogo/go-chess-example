@@ -2,7 +2,7 @@
 
 This is very simple chess website built using React, Go, and MongoDB. Players will be matched with another player when one is available. They will then be able to play chess in realtime. The frontend is built with React and Redux. It uses the chess.js and chessboardjsx libraries which are used by the likes of chess.com and lichess.org. The underlying databases is MongoDB, using the new MongoDB Driver for Go. Clients communicate with the server through websockets. When a player makes a move, the game is updated in the database. A change stream takes any changes to games and sends them to clients via websockets.
 
-![Two browsers side by side. The browsers show chess boards. Moving a piece in one board, moves the piece in the other so two people can play together.](./example.mp4)
+![Two browsers side by side. The browsers show chess boards. Moving a piece in one board, moves the piece in the other so two people can play together.](./example.gif)
 
 ## Running the application
 
