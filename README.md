@@ -39,7 +39,7 @@ There are 4 files:
 - `main.go`: `main()` does three things:
     1. calls a function to connect to MongoDB, 
     2. calls a function to start a change stream to watch the `chess.games` collection,
-    3. Defines three routes and starts an http server.
+    3. Defines two routes and starts an http server.
 
     The server handles two routes:
 
