@@ -37,7 +37,11 @@ func main() {
 
 	go watchForChanges(coll, eventChan)
 
-	http.Handle("/", http.FileServer(http.Dir("./frontend/dist")))
+	// Add a route to / if you want to serve the react app from the go server
+	// Currently it is advised to use npm run dev to run the react app due to some
+	// issues building the frontend with webpack
+	// http.Handle("/", http.FileServer(http.Dir("./frontend/dist")))
+
 	http.HandleFunc("/ws", makeHandleWebsockets(eventChan, coll))
 	http.HandleFunc("/start", makeHandleStart(coll))
 

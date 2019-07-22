@@ -29,8 +29,8 @@ const infoStyle = {
 
 const boardsContainer = {
   display: "flex",
-  justifyContent: "space-around",
-  alignItems: "center",
+  // justifyContent: "space-around",
+  // alignItems: "center",
   flexWrap: "wrap",
   width: "100vw",
   marginTop: 30,
